@@ -20,13 +20,10 @@
             <a href="package.php">Package</a>
             <a href="book.php">Book</a>
         </nav>
-            
-
-
-
-
-
     </section>
+
+
+    <h1>ABOUT US</h1>
 
 
 

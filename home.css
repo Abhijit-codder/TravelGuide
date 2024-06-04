@@ -53,7 +53,7 @@ section
     color: black;
 }
 .header .navbar a:hover{
-    color:rgb(41, 52, 96);
+    color:rgb(150, 41, 26);
 
 }
 .footer
@@ -91,5 +91,19 @@ section
 {
     padding-right: 2rem;
 }
+.copyright
+{
+    background-color: rgb(3, 3, 48);
+    color: azure;
+}
+
+
+
+
+
+
+
+
+
 
 
