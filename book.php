@@ -40,23 +40,23 @@
 
                 </div>
                 <div class="inputBox">
-                    <span>Age : </span>
-                    <input type="number" placeholder="Your Age" name="age">
+                    <span>Birth Date: </span>
+                    <input type="date"  name="age" required>
 
                 </div>
                 <div class="inputBox">
                     <span>Phone : </span>
-                    <input type="number" placeholder="Your Mobile No." name="phone">
+                    <input type="number" placeholder="Your Mobile No." name="phone" required>
 
                 </div>
                 <div class="inputBox">
                     <span>Email : </span>
-                    <input type="email" placeholder="Your Email id" name="email">
+                    <input type="email" placeholder="Your Email id" name="email" required>
 
                 </div>
                 <div class="inputBox">
                     <span>Address-1: </span>
-                    <input type="text" placeholder="Your Adress" name="address1">
+                    <input type="text" placeholder="Your Adress" name="address1" required>
 
                 </div>
                 <div class="inputBox">
@@ -66,23 +66,23 @@
                 </div>
                 <div class="inputBox">
                     <span>Destination : </span>
-                    <input type="text" placeholder="Where you want to go?" name="location">
+                    <input type="text" placeholder="Where you want to go?" name="location" required>
 
                 </div>
 
                 <div class="inputBox">
                     <span>Guest Count : </span>
-                    <input type="text" placeholder="guest" name="guests">
+                    <input type="text" placeholder="guest" name="guests" required>
 
                 </div>
                 <div class="inputBox">
                     <span>Arivals : </span>
-                    <input type="date" name="arrivals">
+                    <input type="date" name="arrivals" required>
 
                 </div>
                 <div class="inputBox">
                     <span>Leaving : </span>
-                    <input type="date" name="leaving">
+                    <input type="date" name="leaving" required>
 
                 </div>
 
