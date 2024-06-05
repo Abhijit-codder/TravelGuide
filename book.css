@@ -56,3 +56,11 @@ span
     color: brown;
 }
 
+.success-message {
+    color: green;
+    font-size: 5.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+

@@ -18,14 +18,15 @@
     $request = "insert into book_form(name , age , phone , email , address1	, address2	, location	, guests	, arrivals	, leaving	)values
     ('$name','$age','$phone','$email','$address1','$address2','$location','$guests','$arrivals','$leaving')";
 
-    mysqli_query($connection, $request);
-
-    header('location:book.php');
-
-   }
+    if (mysqli_query($connection, $request))
+    {
+        header('Location: book.php?status=success');
+        exit();
+    }
    else
    {
     echo 'something wrong';
 
    }
+}
 ?>

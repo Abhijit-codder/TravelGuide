@@ -27,13 +27,16 @@
 
     <section class="booking">
         <h1 class="heading-title">Book Now!</h1>
+
+        
+        
         
 
         <form action="book_form.php" method="post" class="book-form">
             <div class="flex">
                 <div class="inputBox">
                     <span>Name : </span>
-                    <input type="text" placeholder="Your Name" name="name">
+                    <input type="text" placeholder="Your Name" name="name" required>
 
                 </div>
                 <div class="inputBox">
@@ -131,7 +134,20 @@
     
     
     
-    
+    <script>
+        // Check for the status parameter in the URL
+        function checkStatus() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('status') === 'success') {
+                alert('Thank You for booking! @travelGuide');
+                // Remove the status parameter from the URL after displaying the alert
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        }
+
+        // Execute the function on page load
+        window.onload = checkStatus;
+    </script>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
