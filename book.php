@@ -43,7 +43,7 @@
                 </div>
                 <div class="inputBox">
                     <span>Phone : </span>
-                    <input type="number" placeholder="Your Mobile No." name="phonr">
+                    <input type="number" placeholder="Your Mobile No." name="phone">
 
                 </div>
                 <div class="inputBox">
@@ -52,10 +52,21 @@
 
                 </div>
                 <div class="inputBox">
+                    <span>Address-1: </span>
+                    <input type="text" placeholder="Your Adress" name="address1">
+
+                </div>
+                <div class="inputBox">
+                    <span>Address-2 : </span>
+                    <input type="text" placeholder="Your Adress" name="address2">
+
+                </div>
+                <div class="inputBox">
                     <span>Destination : </span>
                     <input type="text" placeholder="Where you want to go?" name="location">
 
                 </div>
+
                 <div class="inputBox">
                     <span>Guest Count : </span>
                     <input type="text" placeholder="guest" name="guests">
