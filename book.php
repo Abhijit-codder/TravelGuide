@@ -89,18 +89,8 @@
             </div>
             <input type="submit" value="submit" class="btn" name="send">
 
-
-        
-
-
-
         </form>
     </section>
-
-
-
-    
-
 
     <section class="footer">
         <div class="box-container">
