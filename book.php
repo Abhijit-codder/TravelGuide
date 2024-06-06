@@ -23,10 +23,22 @@
             <a href="book.php">Book</a>
         </nav>
     </section>
-    
 
+
+    
+   
+    <div style="color: #000000;;font-size: 15px;font-weight: bold;text-align:right;margin:5px ;" class="date">
+            <?php echo date("Y/m/d");?>
+            <br>
+            <?php echo date("l");?>
+            <br>
+            <?php 
+            date_default_timezone_set("Asia/Kolkata");
+            echo date("h:i:sa");?>
+    </div>
     <section class="booking">
         <h1 class="heading-title">Book Now!</h1>
+       
 
         
         
@@ -119,7 +131,7 @@
         
         
     </section>
-    <div style="color:white;background-color:black;text-align:center;font-size: 1.5rem;padding:10px;" class="copyright"><span>-- Copyright - 2024 - TravelGuide --</span></div>
+    <div style="color:white;background-color:black;text-align:center;font-size: 1.5rem;padding:10px;" class="copyright"><span> © Copyright - 2024 - TravelGuide </span></div>
     
     
     
