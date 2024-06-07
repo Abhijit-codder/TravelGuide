@@ -1,3 +1,18 @@
+<?php
+require 'config.php';
+if(!empty($_SESSION["id"]))
+{
+    $id =$_SESSION["id"];
+    $result = mysqli_query($conn, "SELECT * FROM user_register WHERE id = $id");
+    $row = mysqli_fetch_assoc($result);
+
+}
+else
+{
+    header("Location: login.php");
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,25 +28,17 @@
 <body>
     <section class="header">
         <a href="index.php" class="logo">travelGuide</a>
-
         <nav class="navbar">
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="package.php">Package</a>
             <a href="book.php">Book</a>
             <a href="login.php">Login</a>
+            <a href="logout.php">Logout</a>
 
         </nav>
-            
-
-
-
-
-
     </section>
-
-
-
+    <h1>Welcome <?php echo $row["username"]; ?> </h1>
     <section class="footer">
         <div class="box-container">
             <div class="box">
@@ -55,19 +62,11 @@
                 <a href="#"><i class="fas fa-map"></i>Dehradun,India</a>
                 <a href="#"><i class="fas fa-phone"></i>0987654321</a>
             </div>
-        </div>
-        
-        
+        </div>      
     </section>
-    <div style="color:white;background-color:black;text-align:center;font-size: 1.5rem;padding:10px;" class="copyright"><span>-- Copyright - 2024 - TravelGuide --</span></div>
-    
-    
-    
-    
-    
-    
+    <div style="color:white;background-color:black;text-align:center;font-size: 1.5rem;padding:10px;" class="copyright">
+        <span>-- Copyright - 2024 - TravelGuide --</span></div>    
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    
     <script src="js/home.js"></script>
 </body>
 </html>

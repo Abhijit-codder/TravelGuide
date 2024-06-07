@@ -50,9 +50,7 @@
                 <a href="#"><i class="fas fa-map"></i>Dehradun,India</a>
                 <a href="#"><i class="fas fa-phone"></i>0987654321</a>
             </div>
-        </div>
-        
-        
+        </div>      
     </section>
     <div style="color:white;background-color:black;text-align:center;font-size: 1.5rem;padding:10px;" class="copyright"><span>-- Copyright - 2024 - TravelGuide --</span></div>
     
@@ -62,7 +60,6 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    
     <script src="js/home.js"></script>
 </body>
 </html>

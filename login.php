@@ -1,5 +1,9 @@
 <?php
 require 'config.php';
+if(!empty($_SESSION["id"]))
+{
+    header("Location: index.php");
+}
 if(isset($_POST["submit"]))
 {
     $usernameemail = $_POST["usernameemail"];
@@ -23,17 +27,15 @@ if(isset($_POST["submit"]))
             echo "<script> alert('Please Register');</script>";
         }
     }
-
-
-
-
-
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
     <title>LOG IN</title>
 </head>
 <body>
