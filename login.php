@@ -35,23 +35,27 @@ if(isset($_POST["submit"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register.css">
+    
+    <link rel="stylesheet" href="login.css">
     <title>LOG IN</title>
 </head>
 <body>
-    <h1>login<h1>
-        <form class=" " action="" method="post" autocomplete="off">
-            <br>
-            <label for="usernameemail">Username or Email : </label>
-            <input type="text" name="usernameemail" id="usernameemail" required>
-            <br>
-            <label for="password">Password : </label>
-            <input type="password" name="password" id="password" required>
-            <br>
+    
+        <form action="" method="post" autocomplete="off">
+        <div class="details">
+            <div class="key">
+               <label for="usernameemail">Username or Email : </label>
+               <input type="text" name="usernameemail" id="usernameemail" required>
+            </div>
+            <div class="key">
+               <label for="password">Password : </label>
+               <input type="password" name="password" id="password" required>
+            </div>
             <button type="submit" name="submit">Log In</button>
+        </div>     
         </form>
-        <br>
-        <a href="register.php">Register Now</a>
+        <a href="register.php">New User?Register Now!</a>
+        
     
 </body>
 </html>

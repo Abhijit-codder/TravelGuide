@@ -5,7 +5,6 @@ if(!empty($_SESSION["id"]))
     $id =$_SESSION["id"];
     $result = mysqli_query($conn, "SELECT * FROM user_register WHERE id = $id");
     $row = mysqli_fetch_assoc($result);
-
 }
 else
 {

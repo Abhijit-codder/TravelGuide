@@ -1,8 +1,8 @@
-/* register.css */
+/* login.css */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #64b9cb;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -11,11 +11,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
+
 
 form {
     background-color: #fff;
@@ -23,25 +19,24 @@ form {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 300px;
-    margin-bottom: 20px;
 }
 
-.registration {
+.details {
     display: flex;
     flex-direction: column;
 }
 
-.info {
+.key {
     margin-bottom: 15px;
 }
 
-.info label {
+.key label {
     display: block;
     margin-bottom: 5px;
     color: #555;
 }
 
-.info input {
+.key input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -62,12 +57,14 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-a {
-    color: #007BFF;
+a
+{
     text-decoration: none;
+    margin-top:10px;
+    font-size: 20px;
+    
 }
-
-a:hover {
-    text-decoration: underline;
+a :hover
+{
+    color: red;
 }
