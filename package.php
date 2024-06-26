@@ -25,6 +25,33 @@
 
     <h1>Package   </h1>
 
+    <header>
+        <h1>Tour Package Details</h1>
+    </header>
+    <main>
+        <section class="package">
+            <div class="package-info">
+                <h2>Package Name</h2>
+                <p>Description of the package goes here.</p>
+                <ul>
+                    <li>Duration: X days</li>
+                    <li>Includes: A, B, C</li>
+                    <li>Price: $XXXX</li>
+                </ul>
+                <button>Book Now</button>
+            </div>
+            <div class="package-image">
+                <img src="package-image.jpg" alt="Package Image">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tour Booking Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
 
 
     <section class="footer">
@@ -61,5 +88,98 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/home.js"></script>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Styling for package section */
+.package {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.package-info {
+    flex: 1;
+}
+
+.package-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.package-info p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.package-info ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.package-info li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.package-image {
+    flex: 1;
+    text-align: center;
+}
+
+.package-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
 </body>
 </html>
