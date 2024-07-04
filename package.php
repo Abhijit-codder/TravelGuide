@@ -25,33 +25,6 @@
 
     <h1>Package   </h1>
 
-    <header>
-        <h1>Tour Package Details</h1>
-    </header>
-    <main>
-        <section class="package">
-            <div class="package-info">
-                <h2>Package Name</h2>
-                <p>Description of the package goes here.</p>
-                <ul>
-                    <li>Duration: X days</li>
-                    <li>Includes: A, B, C</li>
-                    <li>Price: $XXXX</li>
-                </ul>
-                <button>Book Now</button>
-            </div>
-            <div class="package-image">
-                <img src="package-image.jpg" alt="Package Image">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Tour Booking Website. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-
-
 
 
     <section class="footer">
