@@ -43,9 +43,11 @@ if(isset($_POST["submit"]))
     <link rel="stylesheet" href="new-user.css">
     <title>SIGN UP</title>
 </head>
-<body>
-    <h1>Registration<h1>
-    <form class="register" action="" method="post" autocomplete="off">
+<body style="background: url('Photos/register-bg.jpg') no-repeat center center/cover;">
+    
+    <form style="font-size:10px" class="register" action="" method="post" autocomplete="off">
+    <h2 style="text-align:center"><u>travelGuide.com</u><h2>   
+    <h2 style="text-align:center">Registration<h2>
         <div class="registration">
             <div class="info">
                 <label for="name">Name :</label>

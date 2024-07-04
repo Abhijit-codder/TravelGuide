@@ -11,14 +11,16 @@
 </head>
 
 <body>
-    <section class="header">
+<section class="header">
         <a href="index.php" class="logo">travelGuide</a>
-
         <nav class="navbar">
             <a href="index.php">Home</a>
-            <a href="about.php">About</a>
+            <a href="about.php">Itinerary</a>
             <a href="package.php">Package</a>
             <a href="book.php">Book</a>
+            <a href="login.php">Login</a>
+            <a href="logout.php">Logout</a>
+
         </nav>
     </section>
 

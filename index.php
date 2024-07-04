@@ -25,11 +25,11 @@ else
 </head>
 
 <body>
-    <section class="header">
+<section class="header">
         <a href="index.php" class="logo">travelGuide</a>
         <nav class="navbar">
             <a href="index.php">Home</a>
-            <a href="about.php">About</a>
+            <a href="about.php">Itinerary</a>
             <a href="package.php">Package</a>
             <a href="book.php">Book</a>
             <a href="login.php">Login</a>
@@ -48,7 +48,7 @@ else
             color: #333;
         }
         .hero {
-            background: url('Banner_1280x500.jpg') no-repeat center center/cover;
+            background: url('Photos/Banner_1280x500.jpg') no-repeat center center/cover;
             height: 500px;
             display: flex;
             align-items: center;
@@ -105,19 +105,19 @@ else
     </div>
     <div class="content">
         <div class="tour">
-            <img src="utra.webp" alt="Tour Image">
+            <img src="Photos/utra.webp" alt="Tour Image">
             <h2>Beautiful Uttrakhand</h2>
             <p>Discover the greenery and Magnificient mountains and rivers.</p>
             <button>Book Now</button>
         </div>
         <div class="tour">
-            <img src="Shimla_dusk.webp" alt="Tour Image">
+            <img src="Photos/Shimla_dusk.webp" alt="Tour Image">
             <h2>Himacha Pradesh Diaries</h2>
             <p>Experience the Big Apple like never before with our guided tours.</p>
             <button>Book Now</button>
         </div>
         <div class="tour">
-            <img src="south.webp" alt="Tour Image">
+            <img src="Photos/south.webp" alt="Tour Image">
             <h2>Welcome to South</h2>
             <p>Immerse yourself in the culture and monuments of South India.</p>
             <button>Book Now</button>
@@ -126,19 +126,19 @@ else
     </div>
     <div class="content">
         <div class="tour">
-            <img src="utra.webp" alt="Tour Image">
+            <img src="Photos/utra.webp" alt="Tour Image">
             <h2>Beautiful Uttrakhand</h2>
             <p>Discover the greenery and Magnificient mountains and rivers.</p>
             <button>Book Now</button>
         </div>
         <div class="tour">
-            <img src="Shimla_dusk.webp" alt="Tour Image">
+            <img src="Photos/Shimla_dusk.webp" alt="Tour Image">
             <h2>Himacha Pradesh Diaries</h2>
             <p>Experience the Big Apple like never before with our guided tours.</p>
             <button>Book Now</button>
         </div>
         <div class="tour">
-            <img src="south.webp" alt="Tour Image">
+            <img src="Photos/south.webp" alt="Tour Image">
             <h2>Welcome to South</h2>
             <p>Immerse yourself in the culture and monuments of South India.</p>
             <button>Book Now</button>

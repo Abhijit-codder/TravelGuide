@@ -39,9 +39,10 @@ if(isset($_POST["submit"]))
     <link rel="stylesheet" href="login.css">
     <title>LOG IN</title>
 </head>
-<body>
+<body style="background: url('Photos/login-bg.jpg') no-repeat center center/cover;">
     
         <form action="" method="post" autocomplete="off">
+        <h1>travelGuide.com</h1>
         <div class="details">
             <div class="key">
                <label for="usernameemail">Username or Email : </label>
@@ -54,7 +55,7 @@ if(isset($_POST["submit"]))
             <button type="submit" name="submit">Log In</button>
         </div>     
         </form>
-        <a href="register.php">New User?Register Now!</a>
+        <a style="color:white;text-display:none;background-color:grey;" href="register.php">New User?Register Now!</a>
         
     
 </body>
