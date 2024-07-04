@@ -38,6 +38,150 @@ else
         </nav>
     </section>
     <h1>Welcome <?php echo $row["username"]; ?> </h1>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .hero {
+            background: url('Banner_1280x500.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .tour {
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .tour img {
+            width: 100%;
+            border-radius: 8px;
+            height: 70%;
+        }
+        .tour h2 {
+            margin-top: 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .india-map{
+            width: 100%;
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="hero">
+        <h1>Explore the World with Us</h1>
+    </div>
+    <div class="content">
+        <div class="tour">
+            <img src="utra.webp" alt="Tour Image">
+            <h2>Beautiful Uttrakhand</h2>
+            <p>Discover the greenery and Magnificient mountains and rivers.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="tour">
+            <img src="Shimla_dusk.webp" alt="Tour Image">
+            <h2>Himacha Pradesh Diaries</h2>
+            <p>Experience the Big Apple like never before with our guided tours.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="tour">
+            <img src="south.webp" alt="Tour Image">
+            <h2>Welcome to South</h2>
+            <p>Immerse yourself in the culture and monuments of South India.</p>
+            <button>Book Now</button>
+        </div>
+        
+    </div>
+    <div class="content">
+        <div class="tour">
+            <img src="utra.webp" alt="Tour Image">
+            <h2>Beautiful Uttrakhand</h2>
+            <p>Discover the greenery and Magnificient mountains and rivers.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="tour">
+            <img src="Shimla_dusk.webp" alt="Tour Image">
+            <h2>Himacha Pradesh Diaries</h2>
+            <p>Experience the Big Apple like never before with our guided tours.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="tour">
+            <img src="south.webp" alt="Tour Image">
+            <h2>Welcome to South</h2>
+            <p>Immerse yourself in the culture and monuments of South India.</p>
+            <button>Book Now</button>
+        </div>
+        
+    </div>
+    <img class="india-map" src="2519200.jpg" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section class="footer">
         <div class="box-container">
             <div class="box">

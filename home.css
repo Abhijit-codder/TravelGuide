@@ -1,13 +1,4 @@
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -22,88 +13,118 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
 }
-section
-{
-    padding: 5rem 10%;
+section {
+  padding: 5rem 10%;
 }
-.header
-{
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background-color:aliceblue;
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-shadow: 2cm;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: aliceblue;
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 2cm;
+  align-items: center;
+  justify-content: space-between;
 }
-.header .logo
-{
-    font-size: 2.5rem;
-    color: rgb(14, 14, 30);
+.header .logo {
+  font-size: 2.5rem;
+  color: rgb(14, 14, 30);
 }
-.header .navbar a
-{
-    font-size: 2rem;
-    margin-left: 2rem;
-    color: black;
+.header .navbar a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: black;
 }
-.header .navbar a:hover{
-    color:rgb(150, 41, 26);
-
+.header .navbar a:hover {
+  color: rgb(150, 41, 26);
 }
-.footer
-{
-    background-color: rgb(31, 4, 79);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.footer {
+  background-color: rgb(31, 4, 79);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-.footer .box-container
-{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
-    gap: 3rem;
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
 }
-.footer .box-container .box h3{
-    color: azure;
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
+.footer .box-container .box h3 {
+  color: azure;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
 }
-.footer .box-container .box a{
-    color: yellow;
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
-    display: block;
+.footer .box-container .box a {
+  color: yellow;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  display: block;
 }
-.footer .box-container .box a i
-{
-    color: red;
-    padding-right: .5rem;
-    transition: .2s linear;
-
+.footer .box-container .box a i {
+  color: red;
+  padding-right: 0.5rem;
+  transition: 0.2s linear;
 }
-.footer .box-container .box a:hover i
-{
-    padding-right: 2rem;
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
 }
-.copyright
-{
-    background-color: rgb(3, 3, 48);
-    color: azure;
+.copyright {
+  background-color: rgb(3, 3, 48);
+  color: azure;
 }
 
-
-
-
-
-
-
-
-
-
-
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+.hero {
+  background: url("Banner_1280x500.jpg") no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 4em;
+  margin: 0;
+}
+.content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tour {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33% - 40px);
+  box-sizing: border-box;
+}
+.tour img {
+  width: 100%;
+  border-radius: 8px;
+}
+.tour h2 {
+  margin-top: 0;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
